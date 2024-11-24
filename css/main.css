@@ -1,0 +1,54 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+#logo1 {
+    width: 100%;
+    max-width: 200px;
+}
+
+header {
+    padding: 20px 0;
+}
+
+.carousel-item img {
+    width: 90%;
+    max-height: 750px;
+    min-height: 350px;
+    object-fit: cover;
+}
+
+.carousel-caption h5 {
+    font-size: 1.5rem;
+}
+
+.carousel-caption p {
+    font-size: 1rem;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+@media (max-width: 768px) {
+    .carousel-caption {
+        font-size: 0.9rem;
+    }
+}
+
+body {
+    background-color: #fffcde;
+}
+
+.img-fluid {
+    height: 300px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+#ifgh {
+    width: 450px;
+}

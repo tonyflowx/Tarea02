@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(img/descarga.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.contenedor_formumalio{
+    background-color: #FFD0A9;
+    border-radius: 70px;
+    width: 520px;
+}
+
+.formulario{
+    padding: 1.5em;
+    min-height: 320px;
+    height: 100%;
+    width: 100%;
+}
+
+.contenedor_img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+}
+
+.img_logo{
+    height: 100%;
+    width: auto;
+}
+
+.contenedor_inputs{
+    display: flex;
+    justify-content: center;
+    margin: 1em 0;
+}
+
+
+.label{
+    width: 100%;
+    font-size: 1.2rem;
+}
+
+.input{
+    background-color: #FADEC8;
+    width: 100%;
+    margin-top: 1em;
+    padding: 1em .7em;
+    border-radius: 70px;
+    border: none;
+}
+
+.input:focus{
+    outline: none;
+}
+
+.contenedor_btn{
+    display: flex;
+    justify-content: center;
+}
+
+.contenedor_create_account{
+    margin: 1em 0;
+    display: flex;
+    justify-content: end;
+}
+
+.contenedor_create_account a{
+    text-decoration: none;
+}
+.btn{
+    margin-top: 1em;
+    background-color: #FFBE88;
+    padding: 1em .7em;
+    width: 50%;
+    border-radius: 70px;
+    border: none;
+    color: #f2f2f2;
+}
+.btn:hover{
+    cursor: pointer;
+    outline: 1px solid #eba66e;
+}
+.btn:focus{
+    background: #eba66e;
+}
+
+.contenedor_btn a{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+}
+
+
+.contenedor_btn a:hover{
+    background-color: #eba66e;
+}
+
+
